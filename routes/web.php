@@ -1,9 +1,6 @@
 <?php
 Auth::routes();
 
-//test
-Route::get('/', 'ProductoController@inicio');
-
 //inicio
 Route::get('/', 'ProductoController@inicio');
 //ofertas
